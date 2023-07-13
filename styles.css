@@ -1,0 +1,144 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(imagens/woman.png), linear-gradient(135deg, rgb(255, 151, 168), rgb(255, 79, 109));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(58, 58, 58);
+}
+
+main {
+    width: 70%;
+    background-color: rgb(255, 175, 188);
+    border-radius: 0.8em;
+    margin: auto;
+    padding: 1em;
+    box-shadow: 0.3em 0.3em 0.7em rgb(0,0,0,0.5);
+}
+
+main img {
+    border-radius: 0.8em; 
+}
+
+hr {
+    margin: 0.8em -1em 1em;
+    border: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: rgb(121, 121, 121);
+    transition: 0.2s;
+}
+
+div.container {
+    display: flex;
+}
+
+div.conteudo {
+    padding: 0.1em 1.2em 1.2em 1.2em;
+    margin: auto 0.3em auto 0.3em;
+    background-color: #ffffff;
+    border-radius: 0.8em;
+    box-shadow: 0.13em 0.13em 0 #1a1a1aaa;
+}
+
+div.texto p {
+    margin: 0.3em;
+    padding: 0;
+    text-indent: 4em;
+}
+
+div.texto-img {
+    display: flex;
+    align-items: center;
+}
+
+div.texto-img img.img {
+    margin-top: 1em;
+}
+
+h1.titulo {
+    color: pink;
+    margin-bottom: 0.1em;
+    padding: 0;
+    line-height: 0.99em;
+    height: 0.79em;
+    text-shadow: 0.063em 0.063em 0 #000
+}
+
+h3.subtitulo {
+    margin-top: 0;
+    padding: 0;
+    line-height: 1.55em;
+    height: 1.1em;
+}
+
+p.titulo{
+    color: pink;
+    margin-bottom: 0em;
+    line-height: 1em;
+    font-size: 1.875em;
+    font-weight: bolder;
+    text-shadow: -0.035em -0.035em 0 #000, 0.035em -0.035em 0 #000, -0.035em 0.035em 0 #000, 0.035em 0.035em 0 #000;
+}
+
+p.titulo.conteudo {
+    margin-bottom: 0.35em;
+}
+
+div.card p.titulo {
+    margin-bottom: -0.175em;
+}
+
+div.card p.texto {
+    margin-right: 0.35em;
+}
+
+div.cabecalho {
+    position: relative;
+    padding: 1.2em;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 0.8em;
+    box-shadow: 0em 0.1em 0.35em #00000080;
+}
+
+div.rodape p {
+    color: rgba(255, 255, 255, 0.356); 
+    margin: 0.1em;
+    padding: 0em;
+    text-shadow: 0.05em 0.05em 0 #0000002d;
+}
+
+div.textoRef p {
+    margin: 0.2em;
+    padding: 0;
+}
+
+/* --------- Scroll ---------*/
+::-webkit-scrollbar {
+    width: 0.65em;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+/* -------------------------- */
